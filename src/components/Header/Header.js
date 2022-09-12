@@ -6,7 +6,7 @@ function Header() {
 
     return (
         <div className="h-16 shadow-md">
-            <div className="flex w-[1200px] h-full m-auto justify-between items-center">
+            <div className="flex w-full h-full m-auto justify-between items-center px-20">
                 <Link to={'/'} className="text-3xl font-bold text-blue-500">
                     CHAT APP
                 </Link>

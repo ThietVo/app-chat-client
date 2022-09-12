@@ -21,7 +21,7 @@ function Home({ socket }) {
         <>
             <Header />
             <div className="flex h-[calc(100vh_-_64px)]">
-                <div className="w-96 pt-4 shadow-md"></div>
+                {/* <div className="w-96 pt-4 shadow-md sm:w-0"></div> */}
                 <div className="flex-1">
                     {userLogged &&
                         <HttpProtocol />

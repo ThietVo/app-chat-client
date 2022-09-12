@@ -17,7 +17,7 @@ function HttpProtocol() {
                 .catch((error) => {
                     console.log(error);
                 });
-        }, 50);
+        }, 2000);
       
         return () => clearInterval(interval);
       }, []);
